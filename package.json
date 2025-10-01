@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-training",
+  "version": "1.0.0",
+  "description": "Learning Sequelize basics with models, migrations, and associations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "npx sequelize-cli db:migrate",
+    "migrate:undo": "npx sequelize-cli db:migrate:undo",
+    "seed": "npx sequelize-cli db:seed:all"
+  },
+  "keywords": [
+    "sequelize",
+    "nodejs",
+    "database",
+    "orm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "sqlite3": "^5.1.7"
+  }
+}
