@@ -5,11 +5,13 @@ This project demonstrates Sequelize basics including models, migrations, and dat
 ## Setup
 
 1. **Install Dependencies**
+
    ```bash
    npm install
    ```
 
 2. **Run Migrations**
+
    ```bash
    npm run migrate
    ```
@@ -37,8 +39,9 @@ This project demonstrates Sequelize basics including models, migrations, and dat
 ## User Model Features
 
 The User model includes:
+
 - **firstName**: String (required, 2-50 characters)
-- **lastName**: String (required, 2-50 characters)  
+- **lastName**: String (required, 2-50 characters)
 - **email**: String (required, unique, valid email format)
 - **age**: Integer (optional, 0-120 range)
 - **timestamps**: createdAt and updatedAt (automatic)
